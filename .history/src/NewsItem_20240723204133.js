@@ -8,7 +8,7 @@ export class NewsItem extends Component {
         <div className="card">
         <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">{source}
         </span>
-        <img src={!imageurl?"https://www.psypost.org/wp-content/uploads/2020/12/brain-thinking-image.jpg":imageurl}
+        <img src={imageurl?"https://photos5.appleinsider.com/gallery/60434-124283-000-lead-Underdogs-xl.jpg":imageurl}
           className="card-img-top" 
           alt="..."/>
           <div className="card-body">
